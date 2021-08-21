@@ -38,7 +38,6 @@ function App() {
     </div>
   )
 
-  // return React.createElement("h1",{title: "This is the Heading"},"Heading")
 }
 
 export default App;
