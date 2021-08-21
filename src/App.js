@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <div>
+      <div>This is JSX</div>
+      <h1 title = "This is the JSX Method">Heading JSX</h1>
+      <p id = "para1">This is a Paragraph</p>
+      <p className = "para2">This is 2nd Paragraph</p>
+      <div>
+        <label htmlFor="input1">Some Data</label>
+        <input id="input1" name="input1"></input>
+      </div>
     </div>
-  );
+  )
+
+  // return React.createElement("h1",{title: "This is the Heading"},"Heading")
 }
 
 export default App;
